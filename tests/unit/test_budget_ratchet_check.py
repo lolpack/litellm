@@ -11,9 +11,7 @@ import sys
 from pathlib import Path
 from typing import Final
 
-_MODULE_PATH = (
-    Path(__file__).resolve().parents[2] / "scripts" / "budget_ratchet_check.py"
-)
+_MODULE_PATH = Path(__file__).resolve().parents[2] / "scripts" / "budget_ratchet_check.py"
 _spec = importlib.util.spec_from_file_location("budget_ratchet_check", _MODULE_PATH)
 ratchet = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(ratchet)
@@ -119,7 +117,12 @@ def test_retired_rules_come_from_the_paired_checker():
 
 def test_budgets_without_a_paired_checker_never_retire():
     base: Final = {"TQ008": _spec_of(1)}
-    for rel in ("ruff-strict-budget.json", "type-discipline-budget.json", "basedpyright-code-budget.json"):
+    for rel in (
+        "ruff-strict-budget.json",
+        "type-discipline-budget.json",
+        "basedpyright-code-budget.json",
+        "pyrefly-code-budget.json",
+    ):
         assert ratchet.retired_rules(rel, base) == frozenset()
 
 
@@ -132,6 +135,7 @@ def test_graduated_selectors_come_from_the_paired_ruff_config():
 def test_budgets_without_a_paired_config_can_never_graduate():
     assert ratchet.graduated_selectors("type-discipline-budget.json") == ()
     assert ratchet.graduated_selectors("basedpyright-code-budget.json") == ()
+    assert ratchet.graduated_selectors("pyrefly-code-budget.json") == ()
 
 
 def test_a_selector_the_config_also_ignores_does_not_count_as_graduated():
