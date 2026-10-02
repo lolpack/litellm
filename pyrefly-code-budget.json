@@ -1,0 +1,212 @@
+{
+  "bad-argument-count": {
+    "limit": 8
+  },
+  "bad-argument-type": {
+    "limit": 1513
+  },
+  "bad-assignment": {
+    "limit": 266
+  },
+  "bad-context-manager": {
+    "limit": 10
+  },
+  "bad-function-definition": {
+    "limit": 2
+  },
+  "bad-index": {
+    "limit": 12
+  },
+  "bad-override": {
+    "limit": 62
+  },
+  "bad-override-mutable-attribute": {
+    "limit": 14
+  },
+  "bad-override-param-name": {
+    "limit": 7
+  },
+  "bad-raise": {
+    "limit": 1
+  },
+  "bad-return": {
+    "limit": 158
+  },
+  "bad-specialization": {
+    "limit": 4
+  },
+  "bad-typed-dict-key": {
+    "limit": 80
+  },
+  "bad-unpacking": {
+    "limit": 92
+  },
+  "deprecated": {
+    "limit": 146
+  },
+  "direct-abstract-base-instantiation": {
+    "limit": 1
+  },
+  "explicit-any": {
+    "limit": 1721
+  },
+  "implicit-abstract-class": {
+    "limit": 7
+  },
+  "implicit-any-attribute": {
+    "limit": 45
+  },
+  "implicit-any-empty-container": {
+    "limit": 1462
+  },
+  "implicit-any-lambda": {
+    "limit": 26
+  },
+  "implicit-any-parameter": {
+    "limit": 3583
+  },
+  "implicit-any-type-argument": {
+    "limit": 19812
+  },
+  "implicit-bool": {
+    "limit": 22949
+  },
+  "implicit-import": {
+    "limit": 11
+  },
+  "implicit-reexport": {
+    "limit": 689
+  },
+  "implicitly-defined-attribute": {
+    "limit": 266
+  },
+  "incompatible-comparison": {
+    "limit": 1
+  },
+  "inconsistent-inheritance": {
+    "limit": 1
+  },
+  "invalid-abstract-method": {
+    "limit": 12
+  },
+  "invalid-annotation": {
+    "limit": 4
+  },
+  "invalid-cast": {
+    "limit": 9
+  },
+  "invalid-inheritance": {
+    "limit": 6
+  },
+  "invalid-literal": {
+    "limit": 1
+  },
+  "invalid-yield": {
+    "limit": 14
+  },
+  "missing-argument": {
+    "limit": 10
+  },
+  "missing-attribute": {
+    "limit": 265
+  },
+  "missing-module-attribute": {
+    "limit": 16
+  },
+  "missing-override-decorator": {
+    "limit": 2241
+  },
+  "missing-source": {
+    "limit": 1
+  },
+  "missing-super-call": {
+    "limit": 162
+  },
+  "no-any-return-explicit": {
+    "limit": 194
+  },
+  "no-any-return-implicit": {
+    "limit": 513
+  },
+  "no-matching-overload": {
+    "limit": 60
+  },
+  "non-convergent-recursion": {
+    "limit": 1
+  },
+  "not-a-type": {
+    "limit": 7
+  },
+  "not-async": {
+    "limit": 9
+  },
+  "not-callable": {
+    "limit": 15
+  },
+  "not-iterable": {
+    "limit": 20
+  },
+  "not-required-key-access": {
+    "limit": 47
+  },
+  "open-unpacking": {
+    "limit": 93
+  },
+  "potential-bad-keyword-argument": {
+    "limit": 1
+  },
+  "read-only": {
+    "limit": 4
+  },
+  "redundant-cast": {
+    "limit": 111
+  },
+  "redundant-condition": {
+    "limit": 6
+  },
+  "unannotated-return": {
+    "limit": 3699
+  },
+  "unbound-name": {
+    "limit": 14
+  },
+  "unexpected-keyword": {
+    "limit": 14
+  },
+  "unknown-argument-type": {
+    "limit": 9307
+  },
+  "unknown-attribute-type": {
+    "limit": 255
+  },
+  "unknown-name": {
+    "limit": 11
+  },
+  "unknown-variable-type": {
+    "limit": 1494
+  },
+  "unnecessary-comparison": {
+    "limit": 5
+  },
+  "unnecessary-type-conversion": {
+    "limit": 362
+  },
+  "unreachable": {
+    "limit": 6
+  },
+  "unsupported-operation": {
+    "limit": 56
+  },
+  "untyped-import": {
+    "limit": 9
+  },
+  "unused-call-result": {
+    "limit": 1577
+  },
+  "unused-type-ignore": {
+    "limit": 7
+  },
+  "variance-mismatch": {
+    "limit": 1
+  }
+}

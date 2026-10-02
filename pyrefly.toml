@@ -1,0 +1,16 @@
+project-includes = ["litellm"]
+project-excludes = [
+    "**/node_modules",
+    "**/__pycache__",
+    "tests/e2e/claude_code",
+    "tests/e2e/ui",
+    "litellm/types/utils.py",
+    "litellm/proxy/_types.py",
+]
+python-version = "3.12.0"
+infer-with-first-use = false
+preset = "all"
+
+[errors]
+explicit-any = "error"
+missing-import = "ignore"
